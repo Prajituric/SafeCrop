@@ -66,9 +66,9 @@
     text-align: center;
   }
 
-  .hero-img {
-    width: 60%;
-  }
+  /* .hero-img {
+    width: 100%;
+  } */
 
   .delivered-meals {
     justify-content: center;
@@ -205,6 +205,7 @@
   }
   .hero-img {
     width: 80%;
+    margin-right: 2rem;
   }
 
   .heading-featured-in {
