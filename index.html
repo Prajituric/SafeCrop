@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SafeCrop is an AI-powered software platform that connects with standard field cameras to detect real-time threats to crops: fires, pests, wild animals, intruders, or drought signs. It sends instant alerts to farmers through a mobile app and provides actionable insights. SafeCrop is affordable, easy to install, and focused on helping small and mid-size farms protect their land."
+    />
+    <link rel="icon" href="./img/SFC.png" />
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
+    <title>SafeCrop &mdash; Monitor your crops</title>
+  </head>
+  <body>
+    <header class="header sticky">
+      <a href="#"
+        ><img src="./img/SafeCropLogo.png" alt="SafeCrop" class="logo"
+      /></a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Plans</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Our team</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav"
+          name="close-circle-outline"
+        ></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Protect Your Crops with Smart AI Alerts
+            </h1>
+            <h2 class="hero-description">
+              AI-powered crop protection with real-time alerts for farmers.
+            </h2>
+            <p class="hero-description">
+              SafeCrop is an intelligent system that monitors your fields using low-cost cameras and alerts you instantly about fires, pests, intrusions, or animal threats. No expensive equipment. Just smart protection
+            </p>
+            <a href="#cta" class="btn btn--primary margin-right-small"
+              >Learn More </a
+            >
+            <a href="#how" class="btn btn--secondary">View App Features &rarr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-images">
+                <!-- <img src="./img/customers/customer-1.jpg" alt="customer photo" />
+                <img src="./img/customers/customer-2.jpg" alt="customer photo" />
+                <img src="./img/customers/customer-3.jpg" alt="customer photo" />
+                <img src="./img/customers/customer-4.jpg" alt="customer photo" />
+                <img src="./img/customers/customer-5.jpg" alt="customer photo" />
+                <img src="./img/customers/customer-6.jpg" alt="customer photo" /> -->
+              </div>
+              <!-- <p class="delivered-text">
+                <span>250,000+ </span>meals delivered last year!
+              </p> -->
+            </div>
+          </div>
+          <div class="hero-image-box">
+            <img
+              class="hero-img"
+              src="./img/hero.png"
+              alt="woman enjoying food, meals in storage container and bowls on a table"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="sub-heading">How it works</span>
+          <h2 class="heading-secondary">
+            Your intelligent crop protection in 6 smart steps
+          </h2>
+        </div>
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertionary">
+              Monitor your fields in real time
+            </h3>
+            <p class="step-description">
+              On your main dashboard, you get instant access to your latest alerts, messages, live camera feed, and a visual of your field.
+You also receive a weekly report summarizing field activity and risks — everything in one place, always up to date.
+            </p>
+          </div>
+          <div class="step-img-box_1 step-img-box_pad-R">
+            <img
+              class="step-image img-1"
+              src="./img/app/SC1.png"
+              alt="iPhone app meal plan"
+            />
+          </div>
+          <div class="step-img-box_3 step-img-box_pad-L">
+            <img
+              class="step-image"
+              src="./img/app/SC2.png"
+              alt="iPhone app meal plan"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertionary">Stay informed with daily agricultural insights</h3>
+            <p class="step-description">
+              Check the latest news and educational content tailored to your region and crop type.
+SafeCrop keeps you updated on weather risks, farming tips, and best practices — helping you grow smarter every day.
+
+            </p>
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertionary">
+              Chat alerts with loss estimation
+            </h3>
+            <p class="step-description">
+              Every time a threat is detected, you’ll see a real-time chat alert where you can estimate how much area was affected.
+The app instantly calculates potential losses. From the same screen, you can jump to the GPS location or open the live camera for a better view.
+
+            </p>
+          </div>
+          <div class="step-img-box_3 img-1 step-img-box_pad-R ">
+            <img
+              class="step-image img-1"
+              src="./img/app/SC4.png"
+              alt="iPhone app screen"
+            />
+          </div>
+          <div class="step-img-box_3 step-img-box_pad-L">
+            <img
+              class="step-image "
+              src="./img/app/SC3.png"
+              alt="iPhone app meal plan"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">04</p>
+            <h3 class="heading-tertionary">Pinpoint the threat’s location instantly</h3>
+            <p class="step-description">
+              When you tap “See where” from an alert, SafeCrop shows you the exact location on the map using GPS.
+From here, you can also launch the live camera view to confirm the situation visually.
+
+            </p>
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">05</p>
+            <h3 class="heading-tertionary">
+              Track your alert history and threat categories
+            </h3>
+            <p class="step-description">
+              Explore your full alert history, filtered by category: fire, pests, wild animals, weather issues, and more.
+Learn where most problems occur and track how your protection improves over time.
+
+            </p>
+          </div>
+          <div class="step-img-box_3 step-img-box_pad-R ">
+            <img
+              class="step-image "
+              src="./img/app/SC5.png"
+              alt="iPhone app screen"
+            />
+          </div>
+          <div class="step-img-box_3 step-img-box_pad-L">
+            <img
+              class="step-image "
+              src="./img/app/SC6.png"
+              alt="iPhone app meal plan"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">06</p>
+            <h3 class="heading-tertionary">Analyze monthly risks and download reports</h3>
+            <p class="step-description">
+              See all incidents detected in the current month — with estimated losses, risk types, and a short summary of the last 3 months.
+You can download your own report or explore what other farmers in the network are facing.
+
+            </p>
+          </div>
+          
+      </section>
+      <section class="section-featured">
+        <div class="container">
+          <span class="sub-heading_new"> What the farmer needs to do, practically:</span>
+          <h2 class="heading-tertionary_new">
+            <strong>Step 1:</strong> Mount the camera.
+          </h2>
+          <h2 class="heading-tertionary_new">
+            <strong>Step 2:</strong> Ensure there is internet access (WiFi or 4G).
+          </h2>
+          <h2 class="heading-tertionary_new">
+            <strong>Step 3:</strong> Open the <strong>SafeCrop</strong> app.
+          </h2>
+          <h2 class="heading-tertionary_new">
+            <strong>Step 4:</strong> Hot to acces?
+          </h2>
+          <h2 class="heading-tertionary_neww">
+            <li>Via camera IP address;</li>
+            <li>Enter Username/Password if applicable;</li>
+            <li>Scan a simple QR Code generated</li>
+          </h2>
+        </div>
+        </div>
+      </section>
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <span class="sub-heading">Plans</span>
+          <h2 class="heading-secondary">
+            SafeCrop AI analyzes 50,000+ data points from images, weather and soil to detect real-time threats.
+          </h2>
+        </div>
+        <div class="container grid grid--3-cols margin-bottom-media">
+          <div class="meal">
+            <img
+              src="./img/BasicPlan.jpg"
+              class="meal-image"
+              alt="Japanese Gyozas"
+            />
+            <div class="meal-content">
+              <p class="meal-title">SafeCrop</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon name="alert-circle-outline" class="meal-icon"></ion-icon><span>Real-time <strong>alerts</strong> and <strong>camera event detection</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon name="bonfire-outline" class="meal-icon_fkd margin-t"></ion-icon><span> <strong>AI-based</strong> recognition of fires, animals & crop anomalies </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon name="speedometer-outline" class="meal-icon_special margin-t"></ion-icon><span>Estimated <strong>crop loss</strong> per event
+                  </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon name="calendar-outline" class="meal-icon_special margin-t"></ion-icon><span>Weekly & monthly <strong>reports (PDF)</strong>
+                  </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon name="newspaper-outline"class="meal-icon margin-t"></ion-icon><span>Access to <strong>educational tips</strong> and <strong>agriculture news</strong>
+                  </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon name="videocam-outline" class="meal-icon margin-t"></ion-icon><span>Works with standard <strong>surveillance</strong> cameras</strong>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="meal">
+            <div class="meal">
+              <img
+                src="./img/PremiumPlan.jpg"
+                class="meal-image"
+                alt="Avocado Salad"
+              />
+              <div class="meal-content">
+                
+                <p class="meal-title">SafeCrop+</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon name="git-branch-outline" class="meal-icon_fucked"></ion-icon><span>All features in <strong>SafeCrop Plan</strong></span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon name="globe-outline" class="meal-icon_fkd"></ion-icon><span> Unlock premium partner integrations <Strong>(hardware + software)</Strong> </span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon name="medkit-outline" class="meal-icon_fkd"></ion-icon><span>AI-based <strong>detection of diseases and pests</strong> (plant leaf analysis)</span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon name="thermometer-outline" class="meal-icon_fkd"></ion-icon><span>Connect soil + climate sensors: <strong>humidity, temperature, nutrients</strong></span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon name="cloudy-night-outline"class="meal-icon"></ion-icon><span><strong>Real-time</strong> alerts based on soil & weather thresholds</span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon name="hourglass-outline" class="meal-icon"></ion-icon><span>Dashboard with <strong>historical insights</strong> & crop <strong>event timeline</strong></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="diets pad-r">
+            <h3 class="heading-tertionary pad-r">Works with any type of farm</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Smallholder farms</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Family-owned farms
+                </span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Organic farms</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Conventional farms
+                </span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Greenhouse agriculture</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Dryland crops</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Mixed crops & livestock</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Cooperatives</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Educational / research plots</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </section>
+      <section class="" id="testimonials">
+        <div class="testimonials-container">
+          <span class="sub-heading">Our team</span>
+          <h2 class="heading-secondary">Safe Field Security</h2>
+          <div>
+            <div>
+              
+              <h2 class="hero-description_v2">
+                We are Safe Field Security, a team of third-year Mechatronics students from Politehnica University of Bucharest, passionate about developing smart solutions for agriculture. Our flagship product, SafeCrop, is an AI-software with application to help farmers detect real-time threats in their fields using affordable camera systems and smart notifications. <br/>
+                  <br/>
+Our mission is to empower small and medium-sized farms by combining technology with accessibility. We believe in protecting crops and improving productivity through real-time monitoring, without relying on expensive drones or complex systems. <br/>
+<br/>
+We aim to tackle the growing challenges in agriculture, such as wildlife intrusions, fire hazards, pest outbreaks, and drought, which often go unnoticed until significant damage is done. By automating detection and offering instant alerts, SafeCrop minimizes human error and maximizes crop safety. <br/>
+<br/>
+Our vision is to build a more resilient and data-driven future for farming—one where every farmer, regardless of scale or budget, has access to smart protection tools.
+              </h2>
+          </div>
+          
+      </section>
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="sub-heading">Pricing</span>
+          <h2 class="heading-secondary">
+            Pay for what you need, when you need it.
+          </h2>
+        </div>
+
+        <div class="container_price grid grid--3-cols margin-bottom-media">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">SafeCrop Core </p>
+              <p class="plan-price"><span>€</span>300</p>
+              <p class="plan-text">One-time license / <strong>Software-only</strong>
+              </p>
+            </header>
+            <ul class="list">
+              <li class="list-item trying">
+                <ion-icon name="checkmark-done-outline" class="icon-1"></ion-icon><span>AI-powered <strong>threat detection</strong> (fire, intruders, animals)</span>
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark-done-outline" class="icon-2"></ion-icon><span> Real-time <strong>alerts</strong> & estimated crop loss</span>
+              </li>
+              <li class="list-item trying">
+                <ion-icon name="checkmark-done-outline" class="icon-3"></ion-icon><span>Weekly & monthly <strong>reports</strong></span>
+              </li>
+              <li class="list-item trying">
+                <ion-icon name="checkmark-done-outline" class="icon-4"></ion-icon><span>Access to <strong>agriculture tips & resources</strong></span>
+              </li>
+              <li class="list-item trying">
+                <ion-icon name="checkmark-done-outline" class="icon-5"></ion-icon><span><strong>Lifetime access</strong> to app & updates</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--primary">Start now</a>
+            </div>
+          </div>
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">SafeCrop Field Bundle </p>
+              <p class="plan-price_2 "><span class="">Custom Offer</p>
+              <p class="plan-text">Software + Mounted Equipment</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon icon-6"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Includes <strong>SafeCrop Core</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon icon-7"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span> Partner-mounted field <strong>camera systems</strong> (day/night)</span>
+              </li>
+              <li class="list-item ">
+                <ion-icon
+                  class="list-icon icon-8"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Custom field <strong>layout & hardware</strong> placement</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon icon-9"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Bundle with our own custom-built sensors <strong>(humidity, soil, temperature)</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon icon-10"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Designed for <strong>optimal detection</strong> coverage</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--primary">Request Offer</a>
+            </div>
+          </div>
+          <div class="pricing-plan pricing-plan--starter_v2">
+            <header class="plan-header">
+              <p class="plan-name">SafeCrop Aerial Bundle</p>
+              <p class="plan-price_2">Custom Offer</p>
+              <p class="plan-text">Drone-based Surveillance Only</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon icon-11"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span>Autonomous drone with <strong>smart recharging</strong> station</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon icon-12"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><span> Covers the <strong>entire field</strong> every 30 minutes</span>
+              </li>
+              <li class="list-item trying">
+                <ion-icon
+                  class="list-icon icon-13"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><spa<strong>High-accuracy</strong> image processing and alerts</span>
+              </li>
+              <li class="list-item trying">
+                <ion-icon
+                  class="list-icon icon-14"
+                  name="checkmark-done-outline"
+                ></ion-icon
+                ><spa<strong>Aerial detection only – <strong>no field sensors</strong></span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--primary">Request Offer</a>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Contact our team</h2>
+              <p class="cta-text">
+                Start monitoring your crops right now!
+              </p>
+              <form
+                class="cta-form"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+              >
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    name="full-name"
+                    required
+                    placeholder="Anna Smith"
+                  />
+                </div>
+                <div>
+                  <label for="email">E-mail Adress</label>
+                  <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="me@gmail.com"
+                  />
+                </div>
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select
+                    name=""
+                    id="select-where"
+                    name="select-where"
+                    required
+                  >
+                    <option value="">Please choose one option:</option>
+                    <option value="facebook">Virtual Expo</option>
+                    <option value="youtube">TikTok</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+                <button class="btn btn--form">Send Email</button>
+              </form>
+            </div>
+            <div
+              class="cta-image-box"
+              role="img"
+              aria-label="woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-column">
+          <a href="#" class="footer-logo"
+            ><img src="./img/SafeCropLogo.png" alt="SafeCrop" class="logo_ft"
+          /></a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link " href="https://www.instagram.com/safecropsecurity?igsh=MTQ2em05dDE4OHRmNw=="
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="https://www.tiktok.com/@safecropsecurity2025?_t=ZN-8w3Fd04t2so&_r=1"
+                ><ion-icon class="social-icon" name="logo-tiktok"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        
+        </div>
+        <div class="adress-column">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="adress">
+              Address: Splaiul Independenței 313, București 060042
+            </p>
+            <p>
+              <a class="footer-link" href="mailto:safecropsec2025@gmail.com"
+                >safecropsec2025@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-column">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-column">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About SafeCrop</a></li>
+            <li><a class="footer-link" href="#">Our team</a></li>
+            <li><a class="footer-link" href="#">Partners</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-column">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <!-- <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script> -->
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
