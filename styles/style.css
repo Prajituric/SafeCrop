@@ -454,14 +454,14 @@ body {
   position: relative;
 }
 
-.step-img-box_1 {
+.step-img-box {
   align-items: center;
   display: flex;
   justify-content: center;
   position: relative;
 }
 
-.step-img-box_3 {
+.step-img-box {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -494,8 +494,8 @@ body {
   z-index: -1;
 }
 
-.step-img-box_1::before,
-.step-img-box_1::after {
+.step-img-box::before,
+.step-img-box::after {
   border-radius: 50%;
   content: "";
   display: block;
@@ -506,8 +506,8 @@ body {
   z-index: -1;
 }
 
-.step-img-box_3::before,
-.step-img-box_3::after {
+.step-img-box::before,
+.step-img-box::after {
   border-radius: 50%;
   content: "";
   display: block;
@@ -530,25 +530,25 @@ body {
   background-color: #90c67c82;
 }
 
-.step-img-box_1::before {
+.step-img-box::before {
   background-color: #aadea782;
   padding-bottom: 85%;
   width: 85%;
 }
 
-.step-img-box_1::after {
+.step-img-box::after {
   width: 65%;
   padding-bottom: 65%;
   background-color: #90c67cc0;
 }
 
-.step-img-box_3::before {
+.step-img-box::before {
   background-color: #aadea782;
   padding-bottom: 81%;
   width: 81%;
 }
 
-.step-img-box_3::after {
+.step-img-box::after {
   width: 65%;
   padding-bottom: 65%;
   background-color: #90c67cc0;
@@ -663,15 +663,17 @@ body {
   color: #7cc300;
 }
 
-.margin-t {
-  margin-top: 0.9rem;
-}
-
 .meal-icon_fucked {
   height: 4rem;
   width: 4rem;
   color: #7cc300;
 }
+
+.margin-t {
+  margin-top: 0.9rem;
+}
+
+
 
 .all-recipes {
   text-align: center;
@@ -801,9 +803,9 @@ body {
 /* TESTIMONIALS */
 
 .section-testimonials {
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9;
   display: grid;
-  grid-template-columns: 55fr 45fr;
+  grid-template-columns: 55fr 45fr; */
 }
 
 .testimonials-container {
@@ -1120,4 +1122,7 @@ body {
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+
+
 }
