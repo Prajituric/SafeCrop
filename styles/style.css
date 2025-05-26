@@ -179,6 +179,10 @@ body {
   text-transform: uppercase;
 }
 
+.sub-heading-ph {
+  display: none;
+}
+
 .pad-r {
   margin-right: -4rem;
 }
@@ -221,13 +225,6 @@ body {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
-}
-
-.hero-description_v2{
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 4.8rem;
-  margin-top: -7rem;
 }
 
 .test {
@@ -617,6 +614,10 @@ body {
   margin-bottom: 1.2rem;
   display: flex;
   gap: 0.4rem;
+}
+
+.meal-title-ph {
+  display: none;
 }
 
 .meal-title {
@@ -1123,6 +1124,28 @@ body {
 .footer-link:active {
   color: #555;
 }
+
+.heading-secondary-ph {
+  display: none;
+} 
+
+.hero-description_dk{
+  font-size: 60rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: -7rem;
+}
+
+.heading-secondary {
+  margin-bottom: 5rem;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #45260a;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
 
 
 }
