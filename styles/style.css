@@ -160,7 +160,7 @@ body {
 .heading-secondary {
   font-size: 4.4rem;
   line-height: 1.2;
-  margin-bottom: 9.6rem;
+  margin-bottom: 6.6rem;
 }
 
 .heading-secondary_new {
@@ -391,8 +391,8 @@ body {
 }
 
 .container {
-  max-width: 120rem;
-  padding: 0 3.2rem;
+  max-width: 100%;
+  padding: 0 9.6rem;
   margin: 0 auto;
 }
 
@@ -647,27 +647,78 @@ body {
 }
 
 .meal-icon {
-  height: 7.4rem;
-  width: 7.4rem;
+  height: 9rem;
+  width: 9rem;
   color: #7cc300;
+  margin-right: 1rem;
+  
+}
+
+.meal-icon_nws {
+  height: 6.5rem;
+  width: 30%;
+  color: #7cc300;
+  margin-right: 1.5rem;
+}
+
+.meal-icon_cam {
+  height: 6rem;
+  width: 30%;
+  color: #7cc300;
+  margin-right: 1rem;
+}
+
+.bolder {
+  font-size: 2rem;
 }
 
 .meal-icon_fkd {
   height: 9rem;
   width: 9rem;
   color: #7cc300;
+  margin-right: 2rem;
+}
+
+.meal-icon_fkds {
+  height: 10rem;
+  width: 45%;
+
+  color: #7cc300;
+}
+
+.meal-icon_fkd_1 {
+  height: 11rem;
+  width: 11rem;
+  color: #7cc300;
+  margin-right: 1rem;
+}
+
+.meal-icon_weather {
+  height: 9rem;
+  width: 9rem;
+  color: #7cc300;
+  margin-right: 1rem;
+}
+
+.meal-icon_time {
+  height: 9rem;
+  width: 9rem;
+  color: #7cc300;
+  margin-right: 1.5rem;
 }
 
 .meal-icon_special {
-  height: 5rem;
-  width: 5rem;
+  height: 5.5rem;
+  width: 20%;
+  margin-right: 1rem;
   color: #7cc300;
 }
 
 .meal-icon_fucked {
-  height: 4rem;
-  width: 4rem;
+  height: 6rem;
+  width: 6rem;
   color: #7cc300;
+  margin-right: 1.6rem;
 }
 
 .margin-t {
@@ -810,6 +861,7 @@ body {
 }
 
 .testimonials-container {
+  font-size: 1.5rem;
   padding: 0 9.6rem 9.6rem 9.6rem;
 }
 
@@ -999,11 +1051,11 @@ body {
 
 .cta .heading-secondary {
   color: #2e1907;
-  margin-bottom: 3.2rem;
+  /* margin-bottom: 3.2rem; */
 }
 
 .cta-text {
-  font-size: 1.8rem;
+  font-size: 3rem;
   line-height: 1.8;
   margin-bottom: 4.8rem;
 }
@@ -1125,17 +1177,6 @@ body {
   color: #555;
 }
 
-.heading-secondary-ph {
-  display: none;
-} 
-
-.hero-description_dk{
-  font-size: 60rem;
-  line-height: 1.6;
-  margin-bottom: 0;
-  margin-top: -7rem;
-}
-
 .heading-secondary {
   margin-bottom: 5rem;
   font-size: 4.4rem;
@@ -1144,6 +1185,13 @@ body {
   color: #45260a;
   text-align: center;
   letter-spacing: -0.5px;
+}
+
+.hero-description_v2{
+  /* font-size: 20rem; */
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: -7rem;
 }
 
 

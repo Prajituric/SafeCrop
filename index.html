@@ -379,11 +379,10 @@ You can download your own report or explore what other farmers in the network ar
         <div class="testimonials-container">
           <span class="sub-heading-ph">Our team</span>
           <span class="sub-heading">Our team</span>
-          <h2 class="heading-secondary-ph">Safe Field Security</h2>
           <h2 class="heading-secondary">Safe Field Security</h2>
           
           <div>
-            <div>
+            <div class="hero-description_v2">
               
               <h2 class="hero-description_v2">
                 We are Safe Field Security, a team of third-year Mechatronics students from Politehnica University of Bucharest, passionate about developing smart solutions for agriculture. Our flagship product, SafeCrop, is an AI-software with application to help farmers detect real-time threats in their fields using affordable camera systems and smart notifications. <br/>
@@ -534,50 +533,48 @@ Our vision is to build a more resilient and data-driven future for farming—one
                 Start monitoring your crops right now!
               </p>
               <form
-                class="cta-form"
-                name="contact"
-                method="POST"
-                data-netlify="true"
-              >
-                <div>
-                  <label for="full-name">Full Name</label>
-                  <input
-                    id="full-name"
-                    type="text"
-                    name="full-name"
-                    required
-                    placeholder="Anna Smith"
-                  />
-                </div>
-                <div>
-                  <label for="email">E-mail Adress</label>
-                  <input
-                    id="email"
-                    type="email"
-                    name="email"
-                    required
-                    placeholder="me@gmail.com"
-                  />
-                </div>
-                <div>
-                  <label for="select-where">Where did you hear from us?</label>
-                  <select
-                    name=""
-                    id="select-where"
-                    name="select-where"
-                    required
-                  >
-                    <option value="">Please choose one option:</option>
-                    <option value="facebook">Virtual Expo</option>
-                    <option value="youtube">TikTok</option>
-                    <option value="facebook">Facebook</option>
-                    <option value="instagram">Instagram</option>
-                    <option value="friends">Friends and family</option>
-                    <option value="others">Others</option>
-                  </select>
-                </div>
-                <button class="btn btn--form">Send Email</button>
-              </form>
+  class="cta-form"
+  action="https://formsubmit.co/safecropsec2025@gmail.com"
+  method="POST"
+>
+  <div>
+    <label for="full-name">Full Name</label>
+    <input
+      id="full-name"
+      type="text"
+      name="name"
+      required
+      placeholder="Anna Smith"
+    />
+  </div>
+
+  <div>
+    <label for="email">E-mail Address</label>
+    <input
+      id="email"
+      type="email"
+      name="email"
+      required
+      placeholder="me@gmail.com"
+    />
+  </div>
+
+  <div>
+    <label for="select-where">Where did you hear from us?</label>
+    <select id="select-where" name="source" required>
+      <option value="">Please choose one option:</option>
+      <option value="expo">Virtual Expo</option>
+      <option value="tiktok">TikTok</option>
+      <option value="facebook">Facebook</option>
+      <option value="instagram">Instagram</option>
+      <option value="friends">Friends and family</option>
+      <option value="others">Others</option>
+    </select>
+  </div>
+   <input type="hidden" name="_next" value="https://safefieldsecurity.netlify.app/" />
+  <button class="btn btn--form" type="submit">Send Email</button>
+</form>
+
             </div>
             <div
               class="cta-image-box"
