@@ -561,7 +561,12 @@
   .pricing-plan {
     width: 100%;
     padding: 1em;
+    box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.15); ease;
   }
+  .pricing-plan:hover {
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.5rem);
+}
 
   .plan-header {
   margin-bottom: 3rem;
