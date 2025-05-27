@@ -7,6 +7,31 @@ btnNavElm.addEventListener("click", function () {
   headerElm.classList.toggle("nav-open");
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const tabs = document.querySelectorAll(".pricing-tab");
+    const contents = document.querySelectorAll(".pricing-content");
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        // Remove 'active' from all tabs
+        tabs.forEach((t) => t.classList.remove("active"));
+        // Hide all pricing plans
+        contents.forEach((c) => (c.style.display = "none"));
+
+        // Add active to clicked tab
+        tab.classList.add("active");
+
+        // Show matching pricing plan
+        const targetId = `tab-${tab.dataset.tab}`;
+        const target = document.getElementById(targetId);
+        if (target) {
+          target.style.display = "flex";
+        }
+      });
+    });
+  });
+
+
 // Smooth scrolling for anchor links
 const allLinks = document.querySelectorAll("a:link");
 
@@ -75,3 +100,5 @@ checkFlexGap();
 const yearElm = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearElm.textContent = currentYear;
+
+

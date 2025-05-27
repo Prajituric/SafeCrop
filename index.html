@@ -21,6 +21,23 @@
     <link rel="stylesheet" href="./styles/mobile.css" />
     <title>SafeCrop &mdash; Monitor your crops</title>
   </head>
+  <script>
+  const tabs = document.querySelectorAll(".pricing-tab");
+  const contents = document.querySelectorAll(".pricing-content");
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      // Deactivate all
+      tabs.forEach(t => t.classList.remove("active"));
+      contents.forEach(c => c.style.display = "none");
+
+      // Activate selected
+      tab.classList.add("active");
+      document.getElementById(`tab-${tab.dataset.tab}`).style.display = "flex";
+    });
+  });
+</script>
+
   <body>
     <header class="header sticky">
       <a href="#"
@@ -524,6 +541,82 @@ Our vision is to build a more resilient and data-driven future for farming—one
         </div>
         
       </section>
+      <section class="section-pricing-ph" id="pricing">
+  <div class="container">
+    <span class="sub-heading-ph">Pricing</span>
+    <h2 class="heading-secondary_price">Pay for what you need, when you need it.</h2>
+  </div>
+
+  <!-- Tab Navigation -->
+  <div class="section-pricing-nav">
+    <button class="pricing-tab active" data-tab="core">Core</button>
+    <button class="pricing-tab" data-tab="field">Field</button>
+    <button class="pricing-tab" data-tab="aerial">Aerial</button>
+  </div>
+
+  <!-- Tab Content Container -->
+  <div class="container_price">
+
+    <!-- Core Plan -->
+    <div class="pricing-plan pricing-plan--starter pricing-content" id="tab-core">
+      <header class="plan-header">
+        <p class="plan-name">SafeCrop Core</p>
+        <p class="plan-price"><span>€</span>300</p>
+        <p class="plan-text">One-time license / <strong>Software-only</strong></p>
+      </header>
+      <ul class="list">
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-1"></ion-icon>AI-powered <strong>threat detection</strong> (fire, intruders, animals)</li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-2"></ion-icon>Real-time <strong>alerts</strong> & estimated crop loss</li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-3"></ion-icon>Weekly & monthly <strong>reports</strong></li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-4"></ion-icon>Access to <strong>agriculture tips</strong></li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-5"></ion-icon><strong>Lifetime access</strong> to app & updates</li>
+      </ul>
+      <div class="plan-sign-up">
+        <a href="#" class="btn btn--primary">Start now</a>
+      </div>
+    </div>
+
+    <!-- Field Bundle -->
+    <div class="pricing-plan pricing-plan--complete pricing-content" id="tab-field" style="display: none;">
+      <header class="plan-header">
+        <p class="plan-name">SafeCrop Field Bundle</p>
+        <p class="plan-price_2">Custom Offer</p>
+        <p class="plan-text">Software + Mounted Equipment</p>
+      </header>
+      <ul class="list">
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-6"></ion-icon>Includes <strong>SafeCrop Core</strong></li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-7"></ion-icon>Mounted <strong>camera systems</strong></li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-8"></ion-icon>Custom <strong>field layout</strong></li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-9"></ion-icon><strong>Soil/humidity sensors</strong> included</li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-10"></ion-icon>Designed for <strong>optimal coverage</strong></li>
+      </ul>
+      <div class="plan-sign-up">
+        <a href="#" class="btn btn--primary">Request Offer</a>
+      </div>
+    </div>
+
+    <!-- Aerial Bundle -->
+    <div class="pricing-plan pricing-plan--starter_v2 pricing-content" id="tab-aerial" style="display: none;">
+      <header class="plan-header">
+        <p class="plan-name">SafeCrop Aerial Bundle</p>
+        <p class="plan-price_2">Custom Offer</p>
+        <p class="plan-text">Drone-based Surveillance Only</p>
+      </header>
+      <ul class="list">
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-11"></ion-icon>Autonomous drone + <strong>charging dock</strong></li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-12"></ion-icon><strong>Full field scan</strong> every 30 minutes</li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-13"></ion-icon>Advanced <strong>image processing</strong></li>
+        <li class="list-item"><ion-icon name="checkmark-done-outline" class="icon-14"></ion-icon><strong>Aerial-only detection</strong> (no ground sensors)</li>
+      </ul>
+      <div class="plan-sign-up">
+        <a href="#" class="btn btn--primary">Request Offer</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
       <section class="section-cta" id="cta">
         <div class="container-mail">
           <div class="cta">
