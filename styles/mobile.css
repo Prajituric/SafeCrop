@@ -687,6 +687,12 @@
   color: #45260a;
   margin-left: 3rem;
 }
+.container_plans {
+  max-width: 100%;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
 
 .userpw {
   display: none;
