@@ -396,6 +396,25 @@ body {
   margin: 0 auto;
 }
 
+.container_farmer {
+  max-width: 100%;
+  padding: 0 9.6rem;
+  margin: 0 auto;
+}
+
+
+.container_works {
+  max-width: 100%;
+  padding: 0 9.6rem;
+  margin: 0 auto;
+}
+
+.container_numbers {
+  max-width: 100%;
+  padding: 0 9.6rem;
+  margin: 0 auto;
+}
+
 .container-ft {
   max-width: 100%;
   padding: 0 2.6rem;
