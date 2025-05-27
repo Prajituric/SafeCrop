@@ -84,7 +84,7 @@
     padding-bottom: 2rem;
   }
 
-  .logo-scroll {
+  . -scroll {
     /* overflow-x: scroll; */
     overflow-y: hidden;
     white-space: nowrap;
@@ -569,6 +569,7 @@
       .grid--4-cols {
         grid-template-columns: 1fr;
     }
+
   .grid {
     row-gap: 4.8rem;
   }
@@ -952,8 +953,8 @@
 }
 
 .logo-column {
-  margin-top: -2rem;
-  margin-left: -2rem;
+  /* margin-top: -2rem;
+  margin-left: -2rem; */
 }
 
 .section-cta {
@@ -965,6 +966,96 @@
   padding: 0 4rem;
   margin: 0 ;
 }
+
+.hideenn {
+  display: none;
+}
+
+.grid--footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.logo-column,
+.adress-column {
+  display: block;
+  width: 50%; /* ocupă jumătate din rând fiecare */
+}
+
+/* Aliniază logo și link-uri social */
+.logo-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Adrese și email la dreapta */
+.adress-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end; /* trimite textul spre dreapta */
+  text-align: right;
+}
+
+.footer-heading {
+  display: none;
+}
+
+.adress {
+  margin-bottom: 2.4rem;
+  margin-right: 5rem;
+  align-items: center;
+}
+
+.logo_ft {
+  height: 15rem;
+  margin-left: 1rem;
+  margin-top: -4rem;
+}
+
+.social-icon {
+  height: 100rem;
+  width: 100rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  margin-left: -3000rem;
+  gap: 1rem;
+}
+
+.insragram {
+  margin-right: 2rem;
+}
+
+.container-ft {
+  max-width: 100%;
+  padding: 0 ;
+  margin: 0 auto;
+}
+
+.footer-link_email {
+  margin-right: 3rem;
+}
+
+.footer-link_email:hover,
+.footer-link_email:active {
+  color: #555;
+}
+
+.footer-link_email:link,
+.footer-link_email:visited {
+  color: #383838;
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
 
 /* For safari brawser */
 

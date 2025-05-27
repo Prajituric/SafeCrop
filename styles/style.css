@@ -396,6 +396,12 @@ body {
   margin: 0 auto;
 }
 
+.container-ft {
+  max-width: 100%;
+  padding: 0 2.6rem;
+  margin: 0 auto;
+}
+
 .container-mail {
   max-width: 100%;
   padding: 0 9.6rem;
@@ -1171,7 +1177,9 @@ body {
 }
 
 .footer-link:link,
-.footer-link:visited {
+.footer-link:visited,
+.footer-link_email:link,
+.footer-link_email:visited {
   color: #383838;
   font-size: 1.6rem;
   text-decoration: none;
@@ -1179,7 +1187,9 @@ body {
 }
 
 .footer-link:hover,
-.footer-link:active {
+.footer-link:active,
+.footer-link_email:hover,
+.footer-link_email:active  {
   color: #555;
 }
 
